@@ -1,0 +1,22 @@
+button {
+  margin-top: 70px;
+  width: 20px;
+  height: 20px;
+}
+
+.Counter {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  border: solid blue 2px;
+}
+
+h1 {
+  font-size: 3rem;
+  align-items: center;
+  margin-top: 10px;
+}
+
+h4 {
+  height: 5%;
+}

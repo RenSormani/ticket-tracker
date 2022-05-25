@@ -1,0 +1,41 @@
+button {
+    background-color: rgb(113, 145, 176);
+    color: white;
+    font-size: large;
+    width: 30px;
+    height: 30px;
+    margin-top: 60px;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    border-radius: 0.3rem;
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.2), 0 2px 4px rgba(0, 0, 0, 0.27);
+
+    &:hover {
+        background-color: rgb(148, 148, 150);
+        transition: 0.1s ease-in-out;
+        cursor: pointer;
+      }
+
+    &:active {
+        transform: translateY(0.3rem);
+      }
+}
+
+.Counter {
+    height:100px; 
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    background-color: rgb(226, 250, 250);
+    border: solid 2px rgb(70, 50, 111);
+    border-radius: 0.5rem;
+    margin-left: 0.8rem;
+    margin-top: 2.5rem;
+    margin-bottom: 0.4rem;
+}
+
+h1 {
+    font-size: 3rem;
+    align-items: center;
+    margin-top: 10px;
+}

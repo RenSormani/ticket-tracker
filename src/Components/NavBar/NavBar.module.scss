@@ -1,0 +1,78 @@
+@import "../../variables.scss";
+
+nav {
+  height: $NavBar-height-mb;
+  max-width: 100vw;
+  background-color: black;
+  opacity: 0.6;
+  margin-bottom: 2rem;
+  padding: 0 $base-spacing * 4;
+  border-bottom: white solid 0.25rem;
+
+  a {
+    color: $primary-color;
+
+    &:visited {
+      color: $primary-color;
+    }
+  }
+
+  div {
+    img {
+      margin-right: 10px;
+      height: 35px;
+    }
+
+    h1 {
+      display: none;
+      font-size: 2.5em;
+      color: white;
+    }
+
+    &.searchPanel {
+      font-size: 1.5em;
+      display: flex;
+
+      .faStyles {
+        margin-left: $base-spacing * 4;
+
+        &:hover {
+          cursor: pointer;
+          color: $secondary-color;
+        }
+      }
+
+      .faStylesDisabled {
+        margin-left: $base-spacing * 4;
+        color: $secondary-text;
+      }
+    }
+  }
+}
+
+.navFlex {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 374px) {
+  nav {
+    height: $NavBar-height;
+
+    div {
+      &.searchPanel {
+        font-size: 2em;
+      }
+
+      img {
+        height: 50px;
+      }
+
+      h1 {
+        display: unset;
+        font-size: 1.9em;
+      }
+    }
+  }
+}
