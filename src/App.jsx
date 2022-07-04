@@ -16,7 +16,6 @@ const App = () => {
             <NavBar />
         </section>
         <section className={styles.content}>
-          {/* <EmployeeCard data={data[1]}/> */}
           {data.map(getEmployeeCardJsx)}
         </section>
       </div>
@@ -25,11 +24,3 @@ const App = () => {
 };
 
 export default App;
-
-// 1. Change title in public/index.html
-// 2. Rename src/App.js => App.jsx
-// 3. Clear out code from return in App.jsx
-// 4. Clear out code from App.css
-// 5. Add global reset to index.css
-// 6. Install sass
-// 7. Rename App.css => App.module.scss & change import
